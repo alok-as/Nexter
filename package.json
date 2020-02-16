@@ -1,0 +1,17 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "nexter for purchasing luxury homes",
+  "main": "index.js",
+  "scripts": {
+    "comp:scss":"node-sass src/sass/main.scss src/css/style.css",
+    "watch:scss":"nodemon -e scss -x \"npm run comp:scss\"" 
+  },
+  "keywords": [],
+  "author": "ALok Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  }
+}
